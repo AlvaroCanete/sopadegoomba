@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:¨yoruka-dafont¨;
+    src: url(../fonts/yoruka-dafont.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: ¨yoruka-dafont¨;
+    background-color: #fff7ec;
+    background-image: url(../images/2887.svg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    z-index: 1 !important;
+}
+main {
+    z-index: 0 !important;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 71, 111) !important;
+}
+a:hover {
+    color: rgb(215, 216, 135) !important;
+}
+
+.Logo {
+    width: 80%;
+    height: auto;
+    padding-bottom: 4rem;
+}
+.Rs {
+    width: 2vw;
+    height: auto;
+}
