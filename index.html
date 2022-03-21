@@ -10,22 +10,23 @@
         <title>Inicio</title>
     </head>
     <body >
-        <div class="container-fluid position-sticky top-0" style="z-index: 9999; ">
+        <div class="container-fluid sticky-top">
             <div class="row">
                 <div class="col-lg-12">
                     <header>
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light fs-3 px-2 ">
-                            <div class="container animate__animated animate__zoomInDown">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
+                            <div class="container px-4 animate__animated animate__zoomInDown animate__faster 400ms">
                                 <a class="navbar-brand" href="./index.html"><img class="Logo" src="./images/sopadegoomba_logo.png" alt="logo"></a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 animate__animated animate__zoomInDown">
-                                    <li class="nav-item"><a class="nav-link" style="color: rgb(255, 71, 111)" href="./pages/noticias.html">Noticias</a></li>
-                                    <li class="nav-item"><a class="nav-link" style="color: rgb(255, 71, 111)" href="./pages/analisis.html">Analisis</a></li>
-                                    <li class="nav-item"><a class="nav-link" style="color: rgb(255, 71, 111)" href="./pages/maquinadeltiempo.html">Maquina del tiempo</a></li>
-                                    <li class="nav-item"><a class="nav-link" style="color: rgb(255, 71, 111)" href="./pages/tops.html">Tops</a></li>
-                                    <li class="nav-item"><a class="nav-link" style="color: rgb(255, 71, 111)" href="./pages/memes.html">Memes</a></li>
-                                </ul>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                                <div class="collapse navbar-collapse" id="navbarResponsive">
+                                    <ul class="navbar-nav ms-auto justify-content-end text-truncate">
+                                        <li class="nav-item"><a class="nav-link"  href="./pages/noticias.html">Noticias</a></li>
+                                        <li class="nav-item"><a class="nav-link"  href="./pages/analisis.html">Analisis</a></li>
+                                        <li class="nav-item"><a class="nav-link"  href="./pages/maquinadeltiempo.html">Maquina del tiempo</a></li>
+                                        <li class="nav-item"><a class="nav-link"  href="./pages/tops.html">Tops</a></li>
+                                        <li class="nav-item"><a class="nav-link"  href="./pages/memes.html">Memes</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </nav>
                     </header>
@@ -76,15 +77,15 @@
         <div class="container-fluid mt-5 ms-auto">
         <div class="row">
             <div class="col-lg-6">
-                <div class="card mb-3 animate__animated animate__slideInLeft animate__delay-3s" style="max-width: 1740px; height: auto;">
+                <div class="card mb-3" style="max-width: 1740px; height: auto;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./images/pokemon-3-780x470-2.jpg" class="img-fluid rounded-start pt-5 mb-3" alt="pokememe">
+                            <img src="./images/pokemon-3-780x470-2.jpg" class="img-fluid rounded-start pt-5 mb-3 ms-2" alt="pokememe">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Los mejores memes de Pokemon España</h5>
-                                <p class="card-text">Después de la sorprendente noticia de Pokemon Escarlata y Purpura, internet reventó a memes. Descubre los mejores aquí.</p>
+                                <h5 class="card-title fw-bold">Los mejores memes de Pokemon España</h5>
+                                <p class="card-text fw-light">Después de la sorprendente noticia de Pokemon Escarlata y Purpura, internet reventó a memes. Descubre los mejores aquí.</p>
                                 <p class="card-text"><small class="text-muted"><a href="#">Ver Memes</a></small></p>
                             </div>
                         </div>
@@ -92,15 +93,15 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="card mb-3 animate__animated animate__slideInRight animate__delay-3s" style="max-width: 1740px; height: auto;">
+                <div class="card mb-3" style="max-width: 1740px; height: auto;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./images/1624528083_178624_1624528186_noticia_normal.jpg" class="img-fluid rounded-start pt-5 mb-3" alt="metroid">
+                            <img src="./images/1624528083_178624_1624528186_noticia_normal.jpg" class="img-fluid rounded-start pt-5 mb-3 ms-2" alt="metroid">
                         </div>
                             <div class="col-md-8">
                                 <div class="card-body ">
-                                    <h5 class="card-title">Top mejores juegos de Metroid de la historia</h5>
-                                    <p class="card-text">Después de disfrutar de la última aventura de Samus, hacemos un repaso por lo mejor y lo peor de una de las mejores sagas de videojuegos jamás vista </p>
+                                    <h5 class="card-title fw-bold">Top mejores juegos de Metroid de la historia</h5>
+                                    <p class="card-text fw-light">Después de disfrutar de la última aventura de Samus, hacemos un repaso por lo mejor y lo peor de una de las mejores sagas jamás vista </p>
                                     <p class="card-text"><small class="text-muted"><a href="#">Ver Top</a></small></p>
                                 </div>
                             </div>
@@ -112,16 +113,34 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                <section class="page-section" id="contact">
-                    <div class="container px-4 px-lg-5">
-                        <div class="row gx-4 gx-lg-5 justify-content-center">
-                            <div class="col-lg-8 col-xl-6 text-center bg-light" style="color: rgb(255, 71, 111)">
-                                <h2 class="mt-0">Quieres colaborar con nosotros?</h2>
-                                <hr class="divider" />
-                                <p class="text-muted mb-5" >Si te interesa el mundo de los videojuegos y quieres formar parte de nuestro equipo, rellena el siguiente formulario</p>
+                    <div class="row mx-1 my-3">
+                        <div class="col-md-5 BgWhite">
+                            <img src="../images/mkart.jpeg" class="img-fluid rounded-start pt-2 my-3 ps-5" alt="pokememe">
+                        </div>
+                        <div class="col-md-7 BgWhite">
+                            <div class="card-body">
+                                <h5 class="card-title">Actualización del Mario Kart 8</h5>
+                                <p class="card-text fw-light">Ya están disponibles las ¨¨nuevas¨¨ pistas del Mario Kart 8! Os contamos todo el contenido que incluye el paquete, pistas disponibles y fechas de actualización</p>
+                                <p class="card-text"><small class="text-muted"><a href="#">Ver Noticias</a></small></p>
                             </div>
                         </div>
-                        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                <section class="page-section" id="contact">
+                    <div class="container px-4 px-lg-5 BgWhite">
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-lg-8 col-xl-6 text-center Pinktxt">
+                                <h2 class="mt-0 pt-4">Quieres colaborar con nosotros?</h2>
+                                <hr class="divider" />
+                                <p class="text-muted mb-5 Pinktxt" >Si te interesa el mundo de los videojuegos y quieres formar parte de nuestro equipo, rellena el siguiente formulario</p>
+                            </div>
+                        </div>
+                        <div class="row gx-4 gx-lg-5 justify-content-center  mb-5">
                             <div class="col-lg-6">
                                 <form id="contactForm">
                                     <div class="form-floating mb-3">
@@ -154,7 +173,7 @@
                                         <div class="text-center text-danger mb-3">Algo pasa que esto no va</div>
                                     </div>
                                     <div class="d-grid">
-                                        <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Enviar</button>
+                                        <button class="btn btn-primary btn-xl mb-3" id="submitButton" type="submit">Enviar</button>
                                     </div>
                                 </form>
                             </div>
