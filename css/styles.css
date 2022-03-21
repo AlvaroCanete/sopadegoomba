@@ -14,7 +14,8 @@ body {
   font-weight: bold;
   font-size: larger;
   background-color: #fff7ec;
-  color: #ff476f; }
+  color: #ff476f;
+  background-image: url(../images/2887.svg); }
 
 header {
   font-family: ¨yoruka-dafont¨;
@@ -36,7 +37,7 @@ a {
   background-color: white; }
 
 .Logo {
-  width: 65%;
+  width: 150px;
   height: auto; }
 
 .Rs {
