@@ -40,6 +40,10 @@ a {
 .BgWhite {
   background-color: white; }
 
+  .BgTransparent {
+    background-color: rgba(58, 58, 58, 0.438);
+}
+
 .Logo {
   width: 130px;
   height: auto; }
@@ -69,4 +73,12 @@ Footer {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   font-weight: 800;
+}
+.Animation {
+  color:black;
+  transition: transform 250ms ease-in-out;
+}
+.Animation:hover {
+  color: #ff476f;
+  transform: translateY(-10px);
 }
