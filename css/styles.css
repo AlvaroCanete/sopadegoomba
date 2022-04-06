@@ -82,3 +82,13 @@ Footer {
   color: #ff476f;
   transform: translateY(-10px);
 }
+.Legend {
+  width: auto;
+  height: 8rem;
+}
+
+.Construction {
+  background-image: url(../images/mariomaker.gif);
+  background-size:contain;
+  background-repeat:repeat;
+}
